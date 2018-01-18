@@ -7,6 +7,7 @@ var {User} = require('./models/user');
 const {ObjectId} = require('mongodb');
 
 var app = express();
+//Port should be passed by heroku
 const port = process.env.PORT || 3000;
 
 app.use(bodyParser.json());
